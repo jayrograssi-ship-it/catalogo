@@ -1,0 +1,20 @@
+ROBÔ DE INVESTIMENTOS – COMO LIGAR (grátis, ~10 minutos, uma vez só)
+
+1) Crie uma conta grátis em github.com (se ainda não tiver).
+2) Clique em "New repository". Nome: catalogo. Marque "Public". Crie.
+3) Em "uploading an existing file", arraste TODO o conteúdo desta pasta
+   (as pastas coletor, docs e .github e este arquivo). Se a pasta .github
+   não subir pelo arrastar, use "Add file > Create new file" e digite
+   .github/workflows/atualizar.yml colando o conteúdo do arquivo. Clique Commit.
+4) Aba "Actions": se pedir, clique em habilitar. Abra "Atualizar catálogo de
+   investimentos" > "Run workflow". Espera 5-10 min. Deve ficar verde.
+   (Se ficar vermelho, abra e me mande o texto do erro.)
+5) Aba "Settings > Pages": Source = "Deploy from a branch", Branch = main,
+   pasta = /docs. Salve. Em 1-2 min aparece o endereço do site.
+6) No app: Investir > Robô > Configurar, cole:
+   https://SEU-USUARIO.github.io/catalogo/catalogo.json
+   (troque SEU-USUARIO pelo seu nome no GitHub)
+7) Pronto. Todo dia útil o GitHub atualiza sozinho e o app lê ao abrir a aba.
+
+Alternativa sem internet: se tiver o catalogo.json, use "Importar arquivo" na tela do Robô.
+O robô é ferramenta de análise, não recomendação nem garantia de retorno.
